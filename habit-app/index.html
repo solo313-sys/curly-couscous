@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Calendar Header -->
+  <div class="calendar-header">
+    <button id="prevDay">◀</button>
+    <div>
+      <div id="currentDate"></div>
+      <div id="dailyProgress"></div>
+    </div>
+    <button id="nextDay">▶</button>
+  </div>
+
+  <!-- Calendar Strip -->
+  <div id="calendar"></div>
+
+  <h1>🔥 My Habits</h1>
+
+  <div id="habits"></div>
+
+  <div class="stats">
+    <p>Completed Today: <span id="total">0</span></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
